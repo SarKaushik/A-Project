@@ -12,11 +12,13 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.foodorderapp.adapters.PlaceYourOrderAdapter;
 import com.android.foodorderapp.model.Menu;
@@ -30,6 +32,23 @@ public class PlaceYourOrderActivity extends AppCompatActivity {
     private SwitchCompat switchDelivery;
     private boolean isDeliveryOn;
     private PlaceYourOrderAdapter placeYourOrderAdapter;
+
+
+    @Override
+    public boolean onCreateOptionsMenu(android.view.Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.example_menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+
+
+
+
+
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -158,6 +177,23 @@ public class PlaceYourOrderActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
         switch (item.getItemId()) {
+            case R.id.item1:
+                Toast.makeText(this, "Item 1 selected", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.item2:
+                Toast.makeText(this, "Item 2 selected", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.item3:
+                Toast.makeText(this, "Item 3 selected", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.subitem1:
+                Toast.makeText(this, "Sub Item 1 selected", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.subitem2:
+                Intent intent = new Intent(PlaceYourOrderActivity.this,LoginActivity.class);
+                startActivity(intent);
+                Toast.makeText(this, "Sub Item 2 selected", Toast.LENGTH_SHORT).show();
+                return true;
             case android.R.id.home :
                 finish();
             default:
