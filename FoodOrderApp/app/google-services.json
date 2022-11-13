@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "169137286345",
+    "project_id": "foodorderapp-f266d",
+    "storage_bucket": "foodorderapp-f266d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169137286345:android:7630cb376359b6b4053118",
+        "android_client_info": {
+          "package_name": "com.android.foodorderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169137286345-pbsloo0a058pu8o6h8158kvr5pvt8gae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHgxjxgIdwWps74Z3O0FXLJhXLNI3KFvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169137286345-pbsloo0a058pu8o6h8158kvr5pvt8gae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169137286345:android:93ec32aaf43e2426053118",
+        "android_client_info": {
+          "package_name": "com.example.quiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169137286345-pbsloo0a058pu8o6h8158kvr5pvt8gae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHgxjxgIdwWps74Z3O0FXLJhXLNI3KFvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169137286345-pbsloo0a058pu8o6h8158kvr5pvt8gae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
